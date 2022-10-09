@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-image: linear-gradient(180deg,#FFFFFF 0%, #F0F1FF 100%);
+  background-repeat: no-repeat;
+  margin: 0;
+  font-size: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+
+.header>h1 {
+  font-size: 2.8em;
+  font-weight: 800;
+  line-height: 35.28px;
+  color: #13183F;
+  display: inline-block;
+
+}
+
+.header>button {
+  background-color: #13183F;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 28px;
+  color: white;
+  border: none;
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+}
+
+.conteiner-one {
+  margin-left: 16px;
+  width: 343px;
+}
+
+.conteiner-one>h1 {
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 50.4px;
+  color: #13183F; 
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+
+.conteiner-one>p {
+  font-size: 1.6em;
+  font-weight: 500;
+  line-height: 26px;
+  color: #83869A;
+  margin-top: 26px;
+  margin-bottom: 24px;
+}
+
+.conteiner-one>button {
+  width: 167px;
+  height: 56px;
+  background-image: linear-gradient(#FF6F48, #F02AA6);
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 28px;
+  color: white;
+  border: none;
+  border-radius: 31.5px;
+}
+
+.image-main {
+  margin: 0 auto;
+  width: 320px;
+  height: 300px;
+  margin-top: 50px;
+  display: block;
+}
+
+.conteiner-two { 
+  background-image: linear-gradient(#FFFFFF,#F0F1FF);
+  display: grid;
+  grid-template-rows:120px 259px 259px 259px 259px 259px;
+  row-gap: 40px;
+  justify-items: center;
+  align-items: start;
+  column-gap: 16px;
+  height: 1795px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.box-one {
+  background-image: linear-gradient(#FF6F48, #F02AA6);
+  width: 343px;
+  height: 120px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.box-one>.paragraph-one {
+  font-size: 2.3em;
+  font-weight: 800;
+  line-height: 32px;
+  color: white;
+  width: 286px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.box-two,.box-three,.box-four,.box-five,.box-six {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 317px;
+  height: 259px;
+  padding-left: 28px;
+}
+
+.conteiner-two img {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: -10%;
+  margin-bottom: 10px;
+}
+
+.conteiner-two h2 {
+  color: #13183F;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 25.2px;
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
+
+.conteiner-two p {
+  color: #83869A;
+  font-size: 1.6em;
+  font-weight: 500;
+  line-height: 26px;
+  width: 286px;
+  height: 78px;
+  margin: 0;
+  margin-bottom: 24px;
+ 
+}
+
+.conteiner-two a {
+  color: #F74780;
+  font-size: 1.8em;
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #13183F;
+}
+
+footer>h1 {
+  display: inline-block;
+  margin-left: 16px;
+  text-align: left;
+  font-size: 2.8em;
+  font-weight: 800px;
+  line-height: 35.28px; 
+  color: white;
+}
+
+footer>button {
+  background-image: linear-gradient(#4851FF,#F02AA6);
+  font-size: 1.6em;
+  font-weight:700;
+  line-height: 28px;
+  color: white;
+  border: none;
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+
+@media screen and (min-width: 766px) and (max-width: 1250px) {
+  body {
+    background-image: url(img/image-hero-tablet.png);
+    background-position: top -80px right -300px;
+    background-repeat: no-repeat;
+  }
+
+  .image-main {
+    display: none;
+  }
+
+  .conteiner {
+    padding: 0;
+  }
+
+  .header {
+    margin: 31px 40px 0px 39px;
+  }
+
+  .conteiner-one {
+    width: 398px;
+    margin-top: 105px;
+    margin-bottom: 186px;
+    max-width: 52%;
+    margin-left: 39px;
+  }
+
+  .conteiner-two {
+    row-gap: 56px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:259px 259px 259px auto;
+    align-items: center;
+    height: 999px;
+    margin-top: 200px;
+  }
+
+  .box-one,.box-two,.box-three,.box-four,.box-five,.box-six  {
+    width: 340px;
+    height: 259px;
+    margin: 0;
+  }
+  
+  footer>button {
+   margin-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  body {
+    background-image: url(img/image-hero-desktop.png);
+    background-position: top -150px right -350px ; 
+  }
+
+  .conteiner {
+    padding: 0;
+  }
+
+  .image-main {
+    display: none;
+  }
+
+  .header {
+    margin-left: 165px;
+    margin-right: 165px;
+  }
+
+  .header h1 {
+    font-size: 3.6em;
+  }
+
+  .conteiner-one {
+    margin-left: 165px;
+    width: 500px;
+  }
+
+  .conteiner-one h1 {
+    font-size: 5.6em;
+    font-weight: 800;
+    line-height: 70.56px;
+    margin-bottom: 29px;
+  }
+
+  .conteiner-one p {
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .conteiner-two {
+    row-gap: 80px;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:322px 322px 100px;
+    align-items: center;
+    margin-top: 650px;
+    height: 888px;
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+
+  .box-one,.box-two,.box-three,.box-four,.box-five,.box-six  {
+    width: 350px;
+    height: 322px;
+    margin: 0;
+  }
+
+  .box-one>.paragraph-one {
+    font-size: 3.2em;
+    font-weight: 800;
+    line-height: 40px;
+    width: 286px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 24px;
+    margin-top: 64px;
+  }
+
+  .conteiner-two h2 {
+    font-size: 2.4em;
+    font-weight: 800;
+    line-height: 30.24px;
+   
+  }
+  
+  .conteiner-two p {
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 28px;
+    width: 286px;
+    height: 84px;
+    margin-top: 24px;
+  }
+  
+  .conteiner-two a {
+    color: #F74780;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 24px;
+  }
+
+  footer h1 {
+    margin-left: 165.79px;
+  }
+
+  footer button {
+    margin-right: 165px;
+  }
+
+  .header>button:hover,.conteiner-two a:hover,.conteiner-one>button:hover,footer button:hover   {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+}
